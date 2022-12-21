@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="HotChocolate.Data" Version="13.0.0-preview.82" />
+    <PackageReference Include="HotChocolate.Data.EntityFramework" Version="13.0.0-preview.82" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApi.Domain\WebApi.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
